@@ -1,0 +1,17 @@
+{  
+   "manifest_version":2,
+   "name":"Darkness",
+   "description":"This extension is for people who like the dark.",
+   "version":"1.0",
+   "update_url": "http://0.0.0.0",
+   "browser_action":{  
+      "default_icon":"icon.png"
+   },
+   "permissions": [
+    "tabs", "<all_urls>"
+  ],
+   "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
